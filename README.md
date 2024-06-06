@@ -2,7 +2,8 @@
 
 # Code editor component for PySide2
 
-Component has been created for [Enki editor](http://enki-editor.org) as replacement for [QScintilla](http://www.riverbankcomputing.com/software/qscintilla/intro)
+Component has been created for [Enki editor](http://enki-editor.org) as replacement for [QScintilla](http://www.riverbankcomputing.com/software/qscintilla/intro).
+This version of Qutepart has been modified to work with the PySide2 GUI library instead of PyQt5.
 
 [API documentation](https://qutepart.readthedocs.org/en/latest/)
 

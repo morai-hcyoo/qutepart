@@ -6,8 +6,8 @@ import unittest
 
 import base
 
-from PyQt5.QtCore import Qt
-from PyQt5.QtTest import QTest
+from PySide2.QtCore import Qt
+from PySide2.QtTest import QTest
 
 from qutepart import Qutepart
 from qutepart.vim import _globalClipboard

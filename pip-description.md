@@ -1,4 +1,4 @@
-# Code editor component for PyQt5
+# Code editor component for PySide2
 
 **NOTE** wheels released on PyPi doesn't contain C extension which speedups long file hihglighting.
 Build Qutepart from sources if speed is critical for your project. You can help releasing binary parser by implementing [this issue](https://github.com/andreikop/qutepart/issues/85)

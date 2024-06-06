@@ -7,10 +7,11 @@ import os.path
 import logging
 import platform
 
-from PyQt5.QtCore import QRect, Qt, pyqtSignal
-from PyQt5.QtWidgets import QAction, QApplication, QDialog, QPlainTextEdit, QTextEdit, QWidget
-from PyQt5.QtPrintSupport import QPrintDialog
-from PyQt5.QtGui import QColor, QBrush, \
+from PySide2.QtCore import QRect, Qt
+from PySide2.QtCore import Signal as  pyqtSignal
+from PySide2.QtWidgets import QAction, QApplication, QDialog, QPlainTextEdit, QTextEdit, QWidget
+from PySide2.QtPrintSupport import QPrintDialog
+from PySide2.QtGui import QColor, QBrush, \
                         QFont, \
                         QIcon, QKeySequence, QPainter, QPen, QPalette, \
                         QTextCharFormat, QTextCursor, \

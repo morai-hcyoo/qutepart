@@ -4,9 +4,10 @@ Uses syntax module for doing the job
 
 import time
 
-from PyQt5.QtCore import QObject, QTimer, pyqtSlot
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtGui import QTextBlockUserData, QTextLayout
+from PySide2.QtCore import QObject, QTimer
+from PySide2.QtCore import Slot as pyqtSlot
+from PySide2.QtWidgets import QApplication
+from PySide2.QtGui import QTextBlockUserData, QTextLayout
 
 import qutepart.syntax
 

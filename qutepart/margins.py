@@ -2,9 +2,10 @@
 """
 
 
-from PyQt5.QtCore import QPoint, pyqtSignal
-from PyQt5.QtWidgets import QWidget
-from PyQt5.QtGui import QTextBlock
+from PySide2.QtCore import QPoint
+from PySide2.QtCore import Signal as pyqtSignal
+from PySide2.QtWidgets import QWidget
+from PySide2.QtGui import QTextBlock
 
 
 class MarginBase:

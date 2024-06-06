@@ -4,9 +4,9 @@ Calculates list of QTextEdit.ExtraSelection
 
 import time
 
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QTextCursor
-from PyQt5.QtWidgets import QTextEdit
+from PySide2.QtCore import Qt
+from PySide2.QtGui import QTextCursor
+from PySide2.QtWidgets import QTextEdit
 
 
 class _TimeoutException(UserWarning):

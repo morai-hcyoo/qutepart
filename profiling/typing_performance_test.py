@@ -3,9 +3,9 @@
 import sys
 import time
 
-from PyQt5.QtCore import QTimer, Qt
-from PyQt5.QtGui import QApplication
-from PyQt5.QtTest import QTest
+from PySide2.QtCore import QTimer, Qt
+from PySide2.QtGui import QApplication
+from PySide2.QtTest import QTest
 
 import qutepart
 

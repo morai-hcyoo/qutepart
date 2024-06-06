@@ -5,8 +5,8 @@ import os
 import logging
 import argparse
 
-from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QVBoxLayout, QWidget
-from PyQt5.QtGui import QPalette
+from PySide2.QtWidgets import QApplication, QLabel, QMainWindow, QVBoxLayout, QWidget
+from PySide2.QtGui import QPalette
 
 
 def _parseCommandLine():
@@ -139,7 +139,7 @@ def main():
     window.resize(800, 600)
     window.show()
 
-    from PyQt5.QtCore import QTimer
+    from PySide2.QtCore import QTimer
     if ns.quit:
         QTimer.singleShot(0, app.quit)
 

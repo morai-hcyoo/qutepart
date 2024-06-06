@@ -76,7 +76,7 @@ Overview
 ^^^^^^^^
 
 All margins must derive from the ``QWidget`` and ``MarginBase`` classes. Due to some
-``PyQT5`` implementation details there is no good way to implement the hierarchy
+``PySide2`` implementation details there is no good way to implement the hierarchy
 nicely so a workaround has been developed.
 
 The custom margin code may look as follows:

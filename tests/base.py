@@ -2,11 +2,11 @@ import os
 import sys
 import time
 
-from PyQt5.QtCore import QTimer
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtGui import QKeySequence
-from PyQt5.QtTest import QTest
-from PyQt5.QtCore import Qt
+from PySide2.QtCore import QTimer
+from PySide2.QtWidgets import QApplication
+from PySide2.QtGui import QKeySequence
+from PySide2.QtTest import QTest
+from PySide2.QtCore import Qt
 
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))

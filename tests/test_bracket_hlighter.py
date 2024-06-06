@@ -4,8 +4,8 @@ import unittest
 
 import base
 
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QApplication
+from PySide2.QtCore import Qt
+from PySide2.QtWidgets import QApplication
 
 from qutepart import Qutepart
 from qutepart.brackethlighter import BracketHighlighter
